@@ -41,6 +41,7 @@ extern const char *SDS_NOINIT;
 #include <stdint.h>
 
 typedef char *sds;
+//人生不如意
 
 /* Note: sdshdr5 is never used, we just access the flags byte directly.
  * However is here to document the layout of type 5 SDS strings. */
