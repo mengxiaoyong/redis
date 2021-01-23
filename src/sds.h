@@ -39,9 +39,9 @@
 typedef char *sds;
 
 struct sdshdr {
-    unsigned int len;
-    unsigned int free;
-    char buf[];
+    unsigned int len;//buf的长度
+    unsigned int free;//空闲人的长度
+    char buf[];//
 };
 
 static inline size_t sdslen(const sds s) {
